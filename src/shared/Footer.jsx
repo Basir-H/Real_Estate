@@ -18,23 +18,24 @@ function Footer() {
                         <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Property Real estate 4263 Wilkinson Street Tennessee</p>
                         {/* Socials Icons */}
                         <div className='flex gap-[0.5rem]'>
-                            <img src={facebook} alt="" className='w-[1rem] h-[1rem]'/>
-                            <img src={x} alt="" className='w-[1rem] h-[1rem]'/>
-                            <img src={instagram} alt="" className='w-[1rem] h-[1rem]'/>
+                            <a href="#"><img src={facebook} alt="" className='w-[1rem] h-[1rem]'/></a>
+                            <a href="#"> <img src={x} alt="" className='w-[1rem] h-[1rem]'/></a>
+                            <a href="#"><img src={instagram} alt="" className='w-[1rem] h-[1rem]'/></a>
                         </div>
                     </div>
                     <div className='flex flex-col gap-[1rem] w-[33%]'>
                         <h3 className='font-bold text-white text-[0.9rem] sm:text-[1rem]'>Quick Links</h3>
-                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Contact Supports</p>
-                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Properties</p>
-                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Blog</p>
+
+                        <a href="../pages/Contact" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Contact Supports</a>
+                        <a href="../pages/Properties" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Properties</a>
+                        <a href="../pages/BlogList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Blog</a>
                     </div>
                     <div className='flex flex-col gap-[1rem] w-[33%]'>
                         <h3 className='font-bold text-white text-[0.9rem] sm:text-[1rem]'>Popular Searches</h3>
-                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Appartment for Rent</p>
-                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>House for Buy</p>
-                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Office for Buy</p>
-                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Shop for Rent</p>
+                        <a href="../pages/PropertiesList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Appartment for Rent</a>
+                        <a href="../pages/PropertiesList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>House for Buy</a>
+                        <a href="../pages/PropertiesList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Office for Buy</a>
+                        <a href="../pages/PropertiesList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Shop for Rent</a>
                     </div>
                 </div>
             </div>
