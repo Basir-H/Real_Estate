@@ -26,16 +26,16 @@ function Footer() {
                     <div className='flex flex-col gap-[1rem] w-[33%]'>
                         <h3 className='font-bold text-white text-[0.9rem] sm:text-[1rem]'>Quick Links</h3>
 
-                        <a href="../pages/Contact" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Contact Supports</a>
-                        <a href="../pages/Properties" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Properties</a>
-                        <a href="../pages/BlogList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Blog</a>
+                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Contact Supports</p>
+                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Properties</p>
+                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Blog</p>
                     </div>
                     <div className='flex flex-col gap-[1rem] w-[33%]'>
                         <h3 className='font-bold text-white text-[0.9rem] sm:text-[1rem]'>Popular Searches</h3>
-                        <a href="../pages/PropertiesList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Appartment for Rent</a>
-                        <a href="../pages/PropertiesList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>House for Buy</a>
-                        <a href="../pages/PropertiesList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Office for Buy</a>
-                        <a href="../pages/PropertiesList" className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Shop for Rent</a>
+                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Appartment for Rent</p>
+                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>House for Buy</p>
+                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Office for Buy</p>
+                        <p className='text-[rgba(102,129,153,1)] text-[0.6rem] sm:text-[0.7rem]'>Shop for Rent</p>
                     </div>
                 </div>
             </div>
